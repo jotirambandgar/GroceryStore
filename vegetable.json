@@ -1,0 +1,79 @@
+ {"vegetable":[
+    {
+        "image":"Vegetables/Onion.png",
+        "name":"Onian Red",
+        "price": "8.50",
+        "qty":""
+    },
+    {
+        "image":"Vegetables/Tomato.jpg",
+        "name":"Fresh Tomatos",
+        "price": "7:50",
+        "qty":""
+    },
+    {
+        "image":"Vegetables/Spinach.jpg",
+        "name":"Fresh Spinach",
+        "price": "8.25",
+        "qty":""
+    },
+    {
+        "image":"Vegetables/Cabbage.jpg",
+        "name":"Fresh Spinach",
+        "price": "8.25",
+        "qty":""
+    },
+    {
+        "image":"Vegetables/Cabbage.jpg",
+        "name":"Fresh Spinach",
+        "price": "8.25",
+        "qty":""
+    },
+    {
+        "image":"Vegetables/Spinach.jpg",
+        "name":"Fresh Spinach",
+        "price": "8.25",
+        "qty":""
+    },
+    {
+        "image":"Vegetables/Cabbage.jpg",
+        "name":"Fresh Spinach",
+        "price": "8.25",
+        "qty":""
+    },
+    {
+        "image":"Vegetables/Spinach.jpg",
+        "name":"Fresh Spinach",
+        "price": "8.25",
+        "qty":""
+    }
+    
+ ],
+"fruit":[
+    {
+        "image":"Fruits/Anjeer.png",
+        "name":"Fresho Figs",
+        "price": 79,
+        "qty":""
+    },
+    {
+        "image":"Fruits/Kiwi.jfif",
+        "name":"Fresho Kiwi Green Prepacked - Per Pack",
+        "price": 119,
+        "qty":""
+    },
+    {
+        "image":"Fruits/Banana.png",
+        "name":"Fresho Yellow Banana",
+        "price": 19 ,
+        "qty":""
+    },
+    {
+        "image":"Fruits/Pomegranate.webp",
+        "name":"Fresho Promegranateh",
+        "price": 29,
+        "qty":""
+    }
+    
+ ]
+}

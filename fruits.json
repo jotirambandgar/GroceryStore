@@ -1,0 +1,27 @@
+{"items":[
+    {
+        "image":"Fruits/Anjeer.png",
+        "name":"Fresho Figs",
+        "price": "79",
+        "qty":""
+    },
+    {
+        "image":"Fruits/Kiwi.jfif",
+        "name":"Fresho Kiwi Green Prepacked - Per Pack",
+        "price": "119",
+        "qty":""
+    },
+    {
+        "image":"Fruits/Banana.png",
+        "name":"Fresho Yellow Banana",
+        "price": "19",
+        "qty":""
+    },
+    {
+        "image":"Fruits/Pomegranate.webp",
+        "name":"Fresho Promegranateh",
+        "price": "29",
+        "qty":""
+    }
+    
+ ]}
