@@ -79,11 +79,16 @@ for(const item of cart){
 </div>`
 }
 document.getElementById("cart-item").innerHTML = cards;
+document.getElementById("cart-count").innerHTML = "Cart " + "(" + cart.length + ")";
 }
 
 loadData();
 
 async function loadData(){
+    document.getElementById("cart-count").innerHTML = "Cart "  + "(" + cart.length + ")";
+    if(localStorage.getItem("ValidUser") == undefined){
+        window.location.replace("pages/index.html");
+    }
   fruits= JSON.parse(await makeAJAXCall('GET', 'http://localhost:3000/fruit'));
 console.log(fruits);
 // makeAJAXCall('GET', 'http://localhost:3000/fruit')
@@ -122,4 +127,15 @@ for(const vagitable of vagitables){
             </div>`
 }
 document.getElementById("vegetables").innerHTML = cards;
+}
+
+function placeOrder(){
+    alert("your order has been placed. it will be deliver on " + localStorage.getItem("userAddress") +",Thank you for shopping" )
+    cart=[];
+    loadCartData();
+}
+function logOut(){
+    localStorage.removeItem("ValidUser");
+    localStorage.removeItem("userAddress");
+    window.location.replace("pages/index.html");
 }

@@ -30,13 +30,19 @@
                 <li>Fruits</li>
             </a>
             <a href="#cart" class="a-menu">
-                <li>Cart</li>
+                <li id="cart-count">Cart</li>
             </a>
+            
         </ul>
         <form>
             <input type="text" placeholder="Search..." name="search" class="search-input">
             <button type="submit"><i class="fa fa-search"></i></button>
         </form>
+        <ul class="menu-ul">
+        <a  class="a-menu" onclick="logOut()">
+            <li>Logout</li>
+        </a>
+        </ul>
     </div>
     <!-- Home page Begins -->
     <div class="container">
@@ -195,7 +201,7 @@
         <div class="parallax">
             <div class="title">Cart</div>
         </div>
-        <button class="buynow-btn"  style="position: absolute;right: 0px;">place order</button>
+        <button class="buynow-btn" onclick="placeOrder()" style="position: absolute;right: 0px;">place order</button>
         <div id="cart-item"></div>
     </div>
     <!-- Home Page Ends -->
@@ -229,7 +235,7 @@
         <i class="far fa-copyright fa-1x"></i>2021 By programmers Drive
     </div>
     <!-- Footer Ends here -->
-    <script src="service.js"></script>
+    <script src="js/service.js"></script>
     <script src="https://kit.fontawesome.com/6ae7cbd1b7.js" crossorigin="anonymous"></script>
     <script src="Home.js">
 

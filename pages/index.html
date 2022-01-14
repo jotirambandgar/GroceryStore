@@ -14,27 +14,28 @@
         <div class="form-box">
             <div class="button-box">
                 <div id="btn"></div>
-                <button type="button" class="toggle-btn" onclick="login()">Login</button>
-                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                <button type="button" class="toggle-btn" onclick="loginPage()">Login</button>
+                <button type="button" class="toggle-btn" onclick="registerPage()">Register</button>
             </div>
-            <form id="login" class="input-group">
-                <input type="text" class="input-field" placeholder="User Id" required>
-                <input type="text" class="input-field" placeholder="Password" required>
-                <input type="checkbox" class="check-box"><span>Remember Password</span>
-                <button type="submit" class="submit-btn">Log in</button>
+            <form id="login" name="Login" class="input-group" >
+                <input class="input-field" type="email" name="emailId" placeholder="Email Id"  required>
+                <input type="text" class="input-field" placeholder="Password" name="password" required>
+                <!-- <input type="checkbox" class="check-box"><span>Remember Password</span> -->
+                <button onclick="loginCheck()" class="submit-btn">Log in</button>
             </form>
-            <form id="register" class="input-group">
-                <input type="text" class="input-field" placeholder="User Id" required>
-                <input type="email" class="input-field" placeholder="Email Id" required>
-                <input type="text" class="input-field" placeholder="Password" required>
-                <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+            <form id="register" name="Register" class="input-group" onsubmit="storeUserData()">
+                <input type="text" name="userId" class="input-field" placeholder="User Id" required>
+                <input type="email" name="emailId" class="input-field" placeholder="Email Id" required>
+                <input type="text" name="password" class="input-field" placeholder="Password" required>
+                <input type="text" name="address" class="input-field" placeholder="Address" required>
                 <button type="submit" class="submit-btn">Register</button>
             </form>
         </div>
     </div>
     <script src="../js/login.js">
-       
+
     </script>
+    <script src="../js/service.js"></script>
 
 </body>
 
