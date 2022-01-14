@@ -15,6 +15,7 @@ var cart=[];
 var fruits=[];
 var vagitables=[];
 function addFruitToCart(item) {
+    console.log(item)
    let fruit = fruits.filter(fruit => fruit.name==item.id);
    console.log(fruit);
    let alreadyAddedFruit = cart.filter(fruit => fruit.name==item.id);
@@ -71,7 +72,7 @@ for(const item of cart){
         <div class="desription"></div>
         <b>${item.name}</b>
         <div class="item-select">
-            price : ${item.price}/pack
+        M.R.P: ₹ ${item.price}/250 grams
         </div>
         
     </div>
@@ -80,7 +81,7 @@ for(const item of cart){
 document.getElementById("cart-item").innerHTML = cards;
 }
 
-
+loadData();
 
 async function loadData(){
   fruits= JSON.parse(await makeAJAXCall('GET', 'http://localhost:3000/fruit'));
@@ -96,7 +97,7 @@ for(const fruit of fruits){
         <div class="desription"></div>
         <b>${fruit.name}</b>
         <div class="item-select">
-            price : ${fruit.price}/pack
+        M.R.P: ₹ ${fruit.price}/250 grams
         </div>
         <button id="${fruit.name}" class="buynow-btn" onclick=addFruitToCart(this)>Buy Now</button>
     </div>
@@ -113,7 +114,7 @@ for(const vagitable of vagitables){
                     <div class="desription"></div>
                     <b>${vagitable.name}</b>
                     <div class="item-select">
-                        price : ₹ ${vagitable.price} / 250 grams
+                    M.R.P: ₹ ${vagitable.price} / 250 grams
                     </div>
                     
                     <button id="${vagitable.name}" class="buynow-btn" onclick=addVagitableToCart(this)>Buy Now</button>

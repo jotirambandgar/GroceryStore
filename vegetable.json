@@ -2,49 +2,49 @@
     {
         "image":"Vegetables/Onion.png",
         "name":"Onian Red",
-        "price": "8.50",
+        "price": 8.50,
         "qty":""
     },
     {
         "image":"Vegetables/Tomato.jpg",
         "name":"Fresh Tomatos",
-        "price": "7:50",
+        "price": 7.50,
         "qty":""
     },
     {
         "image":"Vegetables/Spinach.jpg",
         "name":"Fresh Spinach",
-        "price": "8.25",
+        "price": 8.25,
         "qty":""
     },
     {
         "image":"Vegetables/Cabbage.jpg",
-        "name":"Fresh Spinach",
-        "price": "8.25",
+        "name":"Fresh Cabbage",
+        "price": 32,
         "qty":""
     },
     {
-        "image":"Vegetables/Cabbage.jpg",
+        "image":"Vegetables/GreenPeas.jpg",
+        "name":"Fresh Green Peas",
+        "price": 11.11,
+        "qty":""
+    },
+    {
+        "image":"Vegetables/GreenCapsicum.jpg",
+        "name":"Fresh Capsicum",
+        "price": 27,
+        "qty":""
+    },
+    {
+        "image":"Vegetables/",
         "name":"Fresh Spinach",
-        "price": "8.25",
+        "price": 8.25,
         "qty":""
     },
     {
         "image":"Vegetables/Spinach.jpg",
         "name":"Fresh Spinach",
-        "price": "8.25",
-        "qty":""
-    },
-    {
-        "image":"Vegetables/Cabbage.jpg",
-        "name":"Fresh Spinach",
-        "price": "8.25",
-        "qty":""
-    },
-    {
-        "image":"Vegetables/Spinach.jpg",
-        "name":"Fresh Spinach",
-        "price": "8.25",
+        "price": 8.25,
         "qty":""
     }
     
@@ -53,25 +53,25 @@
     {
         "image":"Fruits/Anjeer.png",
         "name":"Fresho Figs",
-        "price": 79,
+        "price": 200,
         "qty":""
     },
     {
         "image":"Fruits/Kiwi.jfif",
-        "name":"Fresho Kiwi Green Prepacked - Per Pack",
-        "price": 119,
+        "name":"Fresho Kiwi Green",
+        "price": 38,
         "qty":""
     },
     {
         "image":"Fruits/Banana.png",
         "name":"Fresho Yellow Banana",
-        "price": 19 ,
+        "price": 10,
         "qty":""
     },
     {
         "image":"Fruits/Pomegranate.webp",
         "name":"Fresho Promegranateh",
-        "price": 29,
+        "price": 7.50,
         "qty":""
     }
     
